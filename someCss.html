@@ -1,46 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <style>
-            p.a {
-              font: 15px Arial, sans-serif;
-            }
-            
-            p.b {
-              font: italic small-caps bold 12px/30px Georgia, serif;
-            }
-            img.a {
-                border: 1px solid #ddd;
-                border-radius: 4px;
-                padding: 5px;
-                width: 50px;
-            }
-            img.b {
-                filter: grayscale(100%);
-            }
-            img.c {
-                display: block;
-                margin-left: 20px;
-                margin-right: 20px;
-                margin-top: 20px;
-                margin-bottom: 20px;
-            }
-            .container {
-                position: relative;
-                text-align: center;
-                color: white;
-            }
-            .centered {
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-            }
-            p.dotted {
-                border-style: dotted;
-            }
-        </style>
         <title>HTML file that shows my CSS Original Work (Newbie, Apprentice)</title>
+        <link href="anExternal.css" rel="stylesheet">
     </head>
     <body>
         <h1>Sung's Exercise</h1>
@@ -55,18 +17,22 @@
         
         <h4>One more unique CSS command that was not discussed in the workshop</h4>
         <p> Convert the image to gray scale</p>
-        <img src="https://wallpapercave.com/wp/wp4697659.jpg" alt="Peace" style="width=50%"><br>
+        <img class ="b" src="https://wallpapercave.com/wp/wp4697659.jpg" alt="Peace" style="width=50%"><br>
         <h2>Apprentice</h2>
         <h4>Text that is centered on a photo</h4>
         <div class="container">
-            <img class="c" src="https://wallpapercave.com/wp/wp4697659.jpg" alt="Peace" style="width:50%;">
+            <img src="https://wallpapercave.com/wp/wp4697659.jpg" alt="Peace" style="width:50%;">
             <div class="centered">Peaceful Image</div>
         </div>
 
         <h4>A photo with 20 pixel margins on each side</h4>
-        <img class="b" src="https://wallpapercave.com/wp/wp4697659.jpg" alt="Paris" style="width:100%">
+        <img class="c" src="https://wallpapercave.com/wp/wp4697659.jpg" alt="Paris" style="width:100%">
 
         <h4>Text with a border that uses dotted lines</h4>
         <p class="dotted">   I think the Newbie and Apprentice Exercises are done! </p>
+
+        <h2>Master</h2>
+        <h4>An external style sheet</h4>
+        
     </body> 
 </html>
