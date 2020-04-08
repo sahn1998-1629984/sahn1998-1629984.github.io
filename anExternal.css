@@ -28,7 +28,6 @@ img.c {
 .container {
     position: relative;
     text-align: center;
-    display: inline-block;
     color: white;
 }
 
