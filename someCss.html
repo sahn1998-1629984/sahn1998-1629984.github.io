@@ -1,17 +1,73 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <style>
+            p.a {
+              font: 15px Arial, sans-serif;
+            }
+            
+            p.b {
+              font: italic small-caps bold 12px/30px Georgia, serif;
+            }
+            img.a {
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                padding: 5px;
+                width: 150px;
+            }
+            img.b {
+                filter: grayscale(100%);
+            }
+            img.c {
+                display: block;
+                margin-left: 20px;
+                margin-right: 20px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            .container {
+                position: relative;
+                text-align: center;
+                color: white;
+            }
+            .centered {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            p.dotted {
+                border-style: dotted;
+            }
+        </style>
         <title>HTML file that shows my CSS Original Work (Newbie, Apprentice)</title>
     </head>
     <body>
         <h1>Sung's Exercise</h1>
         <h2>Newbie</h2>
         <h4>Two paragraphs that each have a different font</h4>
+        <p class="a">Hello, My name is Sung and welcome to my page</p>
+        <p class="b">And this is my original work, hope you enjoy</p>
+
         <h4>Two pictures that were orginally different sizes, resized to 50px by 50px</h4>
+        <img.a src="https://wallpapercave.com/wp/wp4697659.jpg" alt="Peace" style="width:50px"><br>
+        <img.a src="https://cache.desktopnexus.com/cropped-wallpapers/876/876243-1920x1080-[DesktopNexus.com].jpg?st=e_o0L7IDcJAmnPygRy6FGQ&e=1586385693" alt="Peace" style="width:50px"><br>
+        
         <h4>One more unique CSS command that was not discussed in the workshop</h4>
+        <p> Convert the image to gray scale</p>
+        <img.b src="https://wallpapercave.com/wp/wp4697659.jpg" alt="Peace" width="1920" height="1026"><br>
+
         <h2>Apprentice</h2>
         <h4>Text that is centered on a photo</h4>
+        <div class="container">
+            <img src="https://wallpapercave.com/wp/wp4697659.jpg" alt="Peace" style="width:50%;">
+            <div class="centered">Peaceful Image</div>
+        </div>
+
         <h4>A photo with 20 pixel margins on each side</h4>
+        <img src="https://wallpapercave.com/wp/wp4697659.jpg" alt="Paris" style="width:75%">
+
         <h4>Text with a border that uses dotted lines</h4>
+        <p class="dotted">I think the Newbie and Apprentice Exercises are done!</p>
     </body>
 </html>
