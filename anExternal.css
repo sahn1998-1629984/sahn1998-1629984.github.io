@@ -28,7 +28,8 @@ img.c {
 .container {
       position: relative;
       text-align: center;
-      color: white;
+      color:
+       white;
 }
 
 .centered {
@@ -55,14 +56,14 @@ div {
 }
   
 .left {
-    float: left;
-    background: pink;
+      float: left;
+      background: pink;
 }
-
+  
 #rcorners1 {
-    border-radius: 25px;
-    background: rgb(195, 218, 245);
-    padding: 20px; 
-    width: 200px;
-    height: 150px;  
+      border-radius: 25px;
+      background: rgb(231, 245, 218);
+      padding: 20px; 
+      width: 200px;
+      height: 150px;  
 }
