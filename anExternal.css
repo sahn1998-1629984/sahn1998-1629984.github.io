@@ -25,14 +25,14 @@ img.c {
     margin-bottom: 20px;
 }
 
-.container {
+div.container {
     position: relative;
     text-align: center;
     display: inline-block;
     color: white;
 }
 
-.text {
+div.text {
     position: absolute;
     top: 50%;
     left: 50%;
