@@ -34,7 +34,7 @@ div.container {
 
 div.text {
     position: absolute;
-    font: 200px;
+    font-size: 200px;
     bottom: 50%;
     right: 50%;
     transform: translate(-50%, -50%);
