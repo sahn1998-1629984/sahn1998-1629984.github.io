@@ -7,11 +7,12 @@
     font-family: "Open Sans";
     font-weight: bold;
     text-align: center;
+    background-color: white;
 }
 
 .formation {
     width: 800px;
-    margin-left: 0px;
+    margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
     border:solid 4px black;
@@ -19,6 +20,7 @@
     font-size: 20px;
     font-family: "Open Sans";
     font-weight: bold;
+    text-align: center;
 }
 
 .new {
@@ -27,8 +29,7 @@
     margin-right: auto;
     margin-bottom: 20px;
     border:solid 5px black;
-    text-align: center;   
-    background-color: rgb(0, 255, 221); 
+    text-align: center;    
 }
 
 .title {
