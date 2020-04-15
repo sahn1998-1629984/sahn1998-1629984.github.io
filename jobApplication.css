@@ -7,3 +7,11 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
 }
+
+#field {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border:solid 8px black;
+}

@@ -13,16 +13,16 @@
 <form action="http://gclass.alexburner.com/formtest.php" method="post">
 
 	<fieldset>
-		<legend>Creating an Account</legend>
-		<div class="field">
+		<legend id = "legend">Creating an Account</legend>
+		<div id = "field">
 			<label>Email:</label> 
 			<input type="text" name="email">
 		</div>
-		<div class="field">
+		<div id = "field">
 			<label>Password:</label> 
 			<input type="password" name="pwd">
 		</div>
-		<div class="field">
+		<div id = "field">
 			<label>Confirm password:</label> 
 			<input type="password" name="pwd_r">
 		</div>
@@ -30,23 +30,23 @@
 
 	<fieldset>
 		<legend>Personal Information</legend>
-		<div class="field">
+		<div id = "field">
 			<label>First name:</label> 
 			<input type="text" name="firstname">
         </div>
-        <div class="field">
+        <div id = "field">
 			<label>Last name:</label> 
 			<input type="text" name="lastname">
 		</div>
-		<div class="field">
+		<div id = "field">
 			<label>Street Address:</label> 
 			<input type="text" name="street">
 		</div>
-		<div class="field">
+		<div id = "field">
 			<label>City:</label> 
 			<input type="text" name="city">
 		</div>
-		<div class="field">
+		<div id = "field">
 			<label>State:</label> 
 			<select name="state">
 				<option value="" selected="true">Choose a State</option>
@@ -103,14 +103,14 @@
 				<option value="WY">Wyoming</option>
 			</select>
 		</div>
-		<div class="field">
+		<div id = "field">
 			<label>ZIP code:</label> 
 			<input type="text" name="zip">
 		</div>
 	</fieldset>
 
 	<fieldset>
-        <div class="field">
+        <div id = "field">
 			<label>What type of position are you seeking? (check all that apply)</label>
 			<ul>
 				<li><input type="checkbox" name="position_ft" value="AC">Associate Consultant</li>
@@ -120,21 +120,21 @@
 			</ul>
 		</div>
         <legend>Work Experiences</legend>
-        <div class="field">
+        <div id = "field">
             <label>Upload Resume or CV</label><br>
             <label for="pdf">Select file:</label>
             <input type="file" id="pdf" name="pdf" accept="media_type">
             <input type="submit">
         </div>
-		<div class="field">
+		<div id = "field">
 			<label>Work Experience</label><br>
 			<textarea name="Work Experience 1" rows="6" cols="60"></textarea>
 		</div>
-		<div class="field">
+		<div id = "field">
 			<label>Work Experience 2 (if applicable)</label><br>
 			<textarea name="Work Experience 2" rows="6" cols="60"></textarea>
         </div>
-        <div class="field">
+        <div id = "field">
 			<label>Work Experience 3 (if applicable)</label><br>
 			<textarea name="Work Experience 3" rows="6" cols="60"></textarea>
 		</div>
@@ -142,12 +142,12 @@
     
     <fieldset>
 		<legend>Information</legend>
-		<div class="field">
+		<div id = "field">
 			<label>Are you legally able to be employed in this country?</label> 
 			<input type="radio" name="legal" value="yes">Yes
 			<input type="radio" name="legal" value="no">No
         </div>
-        <div class="field">
+        <div id = "field">
 			<label>Do you require a sponsorhip to work in this country (H1B1, OPT, etc)?</label> 
 			<input type="radio" name="legal" value="yes">Yes
 			<input type="radio" name="legal" value="no">No
