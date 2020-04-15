@@ -21,3 +21,7 @@ fieldset {
     margin-bottom: 10px;
     border:solid 4px black;
 }
+
+div {
+    background-color: rgb(106, 175, 255);
+}
