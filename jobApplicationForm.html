@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
     <title>Job Application</title>
     <link rel="stylesheet" type="text/css" href="jobApplication.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -109,18 +110,7 @@
 	</fieldset>
 
 	<fieldset>
-		<legend></legend>
-		<div class="field">
-			<label>Are you legally able to be employed in this country?</label> 
-			<input type="radio" name="legal" value="yes">Yes
-			<input type="radio" name="legal" value="no">No
-        </div>
         <div class="field">
-			<label>Do you require a sponsorhip to work in this country (H1B1, OPT, etc)?</label> 
-			<input type="radio" name="legal" value="yes">Yes
-			<input type="radio" name="legal" value="no">No
-		</div>
-		<div class="field">
 			<label>What type of position are you seeking? (check all that apply)</label>
 			<ul>
 				<li><input type="checkbox" name="position_ft" value="AC">Associate Consultant</li>
@@ -129,9 +119,6 @@
                 <li><input type="checkbox" name="position_tp" value="SC">Senior Consultantt</li>
 			</ul>
 		</div>
-	</fieldset>
-
-	<fieldset>
         <legend>Work Experiences</legend>
         <div class="field">
             <label>Upload Resume or CV</label><br>
@@ -150,6 +137,20 @@
         <div class="field">
 			<label>Work Experience 3 (if applicable)</label><br>
 			<textarea name="Work Experience 3" rows="6" cols="60"></textarea>
+		</div>
+    </fieldset>
+    
+    <fieldset>
+		<legend>Information</legend>
+		<div class="field">
+			<label>Are you legally able to be employed in this country?</label> 
+			<input type="radio" name="legal" value="yes">Yes
+			<input type="radio" name="legal" value="no">No
+        </div>
+        <div class="field">
+			<label>Do you require a sponsorhip to work in this country (H1B1, OPT, etc)?</label> 
+			<input type="radio" name="legal" value="yes">Yes
+			<input type="radio" name="legal" value="no">No
 		</div>
 	</fieldset>
 
