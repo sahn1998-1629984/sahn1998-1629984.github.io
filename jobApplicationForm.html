@@ -9,29 +9,33 @@
 
 <h2>Job Application</h2>
 
-<form action="http://gclass.alexburner.com/formtest.php" method="post">
+<form action="https://github.com/sahn1998-1629984/sahn1998-1629984.github.io" method="post">
 
 	<fieldset>
-		<legend>Account</legend>
+		<legend>Creating an Account</legend>
 		<div class="field">
 			<label>Email:</label> 
 			<input type="text" name="email">
 		</div>
 		<div class="field">
 			<label>Password:</label> 
-			<input type="password" name="password">
+			<input type="password" name="pwd">
 		</div>
 		<div class="field">
-			<label>Repeat password:</label> 
-			<input type="password" name="password_r">
+			<label>Confirm password:</label> 
+			<input type="password" name="pwd_r">
 		</div>
 	</fieldset>
 
 	<fieldset>
 		<legend>Personal Information</legend>
 		<div class="field">
-			<label>Full Name:</label> 
-			<input type="text" name="name">
+			<label>First name:</label> 
+			<input type="text" name="firstname">
+        </div>
+        <div class="field">
+			<label>Last name:</label> 
+			<input type="text" name="lastname">
 		</div>
 		<div class="field">
 			<label>Street Address:</label> 
@@ -99,73 +103,52 @@
 			</select>
 		</div>
 		<div class="field">
-			<label>ZIP:</label> 
+			<label>ZIP code:</label> 
 			<input type="text" name="zip">
 		</div>
 	</fieldset>
 
 	<fieldset>
-		<legend>Availability</legend>
+		<legend></legend>
 		<div class="field">
 			<label>Are you legally able to be employed in this country?</label> 
+			<input type="radio" name="legal" value="yes">Yes
+			<input type="radio" name="legal" value="no">No
+        </div>
+        <div class="field">
+			<label>Do you require a sponsorhip to work in this country (H1B1, OPT, etc)?</label> 
 			<input type="radio" name="legal" value="yes">Yes
 			<input type="radio" name="legal" value="no">No
 		</div>
 		<div class="field">
 			<label>What type of position are you seeking? (check all that apply)</label>
 			<ul>
-				<li><input type="checkbox" name="position_pt" value="parttime">Part time</li>
-				<li><input type="checkbox" name="position_ft" value="fulltime">Full time</li>
-				<li><input type="checkbox" name="position_sl" value="seasonal">Seasonal</li>
-				<li><input type="checkbox" name="position_tp" value="temporary">Temporary</li>
+				<li><input type="checkbox" name="position_ft" value="AC">Associate Consultant</li>
+				<li><input type="checkbox" name="position_sl" value="PM">Project Manager</li>
+                <li><input type="checkbox" name="position_tp" value="Intern">Intern</li>
+                <li><input type="checkbox" name="position_tp" value="SC">Senior Consultantt</li>
 			</ul>
-		</div>
-		<div class="field">
-			<label>Hours available</label>
-			<table>
-				<tr>
-					<td></td>
-					<th>Sun</th>
-					<th>Mon</th>
-					<th>Tue</th>
-					<th>Wed</th>
-					<th>Thu</th>
-					<th>Fri</th>
-					<th>Sat</th>
-				</tr>
-				<tr>
-					<th>From</th>
-					<td><input type="time" size="5" name="su_from"></td>
-					<td><input type="time" size="5" name="mo_from"></td>
-					<td><input type="time" size="5" name="tu_from"></td>
-					<td><input type="time" size="5" name="we_from"></td>
-					<td><input type="time" size="5" name="th_from"></td>
-					<td><input type="time" size="5" name="fr_from"></td>
-					<td><input type="time" size="5" name="sa_from"></td>
-				</tr>
-				<tr>
-					<th>Until</th>
-					<td><input type="time" size="5" name="su_until"></td>
-					<td><input type="time" size="5" name="mo_until"></td>
-					<td><input type="time" size="5" name="tu_until"></td>
-					<td><input type="time" size="5" name="we_until"></td>
-					<td><input type="time" size="5" name="th_until"></td>
-					<td><input type="time" size="5" name="fr_until"></td>
-					<td><input type="time" size="5" name="sa_until"></td>
-				</tr>
-			</table>
 		</div>
 	</fieldset>
 
 	<fieldset>
-		<legend>Personal Statement</legend>
+        <legend>Work Experiences</legend>
+        <div class="field">
+            <label for="img">Select file:</label>
+            <input type="file" id="pdf" name="pdf" accept="media_type">
+            <input type="submit">
+        </div>
 		<div class="field">
-			<label>Why do you deserve this job?</label><br>
-			<textarea name="deserve" rows="6" cols="60"></textarea>
+			<label>Work Experience</label><br>
+			<textarea name="Work Experience 1" rows="6" cols="60"></textarea>
 		</div>
 		<div class="field">
-			<label>Describe a recent project:</label><br>
-			<textarea name="project" rows="6" cols="60"></textarea>
+			<label>Work Experience 2 (if applicable)</label><br>
+			<textarea name="Work Experience 2" rows="6" cols="60"></textarea>
+        </div>
+        <div class="field">
+			<label>Work Experience 3 (if applicable)</label><br>
+			<textarea name="Work Experience 3" rows="6" cols="60"></textarea>
 		</div>
 	</fieldset>
 
